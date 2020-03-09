@@ -14,3 +14,6 @@ Material related to our paper is available via the following links:
 - Code: https://github.com/zal0302/PNLS
 - NKS dataset (Baidu Netdisk): https://pan.baidu.com/s/1bd0TlpZV1Nl71ziSYwG2Gg (**Extracted Code: ect6**)
 - NKS dataset (Google Drive):
+
+## System requirements
+Both Linux and Windows are supported.
