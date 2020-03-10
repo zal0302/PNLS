@@ -13,7 +13,7 @@ Comprehensive ablation studies also reveal the work mechanism of our PNLS on ima
 Material related to our paper is available via the following links:
 - Code: https://github.com/zal0302/PNLS
 - NKS dataset (Baidu Netdisk): https://pan.baidu.com/s/1bd0TlpZV1Nl71ziSYwG2Gg (**Extracted Code: ect6**)
-- NKS dataset (Google Drive):
+- NKS dataset (Google Drive): https://drive.google.com/drive/folders/1rsWLc7kpyM2VfGwY_Gu94TH2bnt3ywfV?usp=sharing
 
 ## System requirements
 Both Linux and Windows are supported.
