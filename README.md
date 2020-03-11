@@ -18,4 +18,14 @@ Material related to our paper is available via the following links:
 ## System requirements
 Both Linux and Windows are supported.
 
+## NKS dataset
+We observe that vector images can be safely regarded as smooth structure images, and construct our NKS dataset by blending vector images and texture images. To generate mixed structure and texture images, we blend each of the 20 structure images and each of the 10 natural textures in a reasonable manner. Each structure image can be safely taken as the ground truth for the corresponding images blended by that structure image and the 10 natural textures. We first mix the structure vector images and natural textures. Since directly adding structure and texture images together would result in overflow of pixel values, we mix the two components in proper proportions. Directly adding the natural color textures to the structure images would produce severe color distortion in the blended images, and existing image smoothing methods would suffer from poor performance on the directly blended images. Therefore, we need to adjust separately the brightness of the Red, Green, and Blue channels of the blended images, to attenuate the color distortion from the corresponding structure images.
+
 <div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/data.png" width="1000"  /></div>
+Examples of our NKS dataset.
+<div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/gt.png" width="1000"  /></div>
+The 20 structure images we used in NKS dataset.
+<div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/texture.png" width="1000"  /></div>
+The 10 natural texture images we used in NKS dataset.
+<div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/fusion.png" width="1000"  /></div>
+Flowchart of the image blending process.
