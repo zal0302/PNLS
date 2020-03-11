@@ -20,7 +20,6 @@ Both Linux and Windows are supported.
 
 ## NKS dataset
 We observe that vector images can be safely regarded as smooth structure images, and construct our NKS dataset by blending vector images and texture images. To generate mixed structure and texture images, we blend each of the 20 structure images and each of the 10 natural textures in a reasonable manner. Each structure image can be safely taken as the ground truth for the corresponding images blended by that structure image and the 10 natural textures. We first mix the structure vector images and natural textures. Since directly adding structure and texture images together would result in overflow of pixel values, we mix the two components in proper proportions. Directly adding the natural color textures to the structure images would produce severe color distortion in the blended images, and existing image smoothing methods would suffer from poor performance on the directly blended images. Therefore, we need to adjust separately the brightness of the Red, Green, and Blue channels of the blended images, to attenuate the color distortion from the corresponding structure images.
-
 <div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/data.png" width="1000"  /></div>
 Examples of our NKS dataset.
 <div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/gt.png" width="1000"  /></div>
@@ -29,3 +28,26 @@ The 20 structure images we used in NKS dataset.
 The 10 natural texture images we used in NKS dataset.
 <div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/fusion.png" width="1000"  /></div>
 Flowchart of the image blending process.
+
+## Benchmarking Image Smoothing on our NKS dataset
+<div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/benchmark.png" width="650"  /></div>
+
+## Visual Results
+<div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/nks.png" width="1000"  /></div>
+Comparison of smoothed images and PSNR(dB)/SSIM/FSIM results by different methods on the image S15T1 from our NKS dataset.
+<div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/div.png" width="1000"  /></div>
+Comparison of smoothed images by different methods on the image 0117 from DIV2K dataset.
+<div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/rtv.png" width="1000"  /></div>
+Comparison of smoothed images by different methods on the image 03_11 from RTV dataset.
+<div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/500.png" width="1000"  /></div>
+Comparison of smoothed images by different methods on the image 0334 from 500images dataset.
+
+## Citation
+If you find the code helpful in your resarch or work, please cite the following papers.
+```
+@Misc{pnls,
+title = {Non-local Image Smoothing with Objective Evaluation},
+author = {Z.-A. Liu and Y.-K. Hou and J. Xu and X.-T. Zhen and L. Shao and M.-M. Cheng},
+year={2020}
+}
+```
