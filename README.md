@@ -17,3 +17,5 @@ Material related to our paper is available via the following links:
 
 ## System requirements
 Both Linux and Windows are supported.
+
+<div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/data.png" width="1000"  /></div>
