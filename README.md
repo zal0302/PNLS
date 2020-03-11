@@ -43,7 +43,7 @@ Comparison of smoothed images by different methods on the image 03_11 from RTV d
 Comparison of smoothed images by different methods on the image 0334 from 500images dataset.
 
 ## Citation
-If you find the code helpful in your resarch or work, please cite the following papers.
+If you find the code helpful in your resarch or work, please cite the following paper.
 ```
 @Misc{pnls,
 title = {Non-local Image Smoothing with Objective Evaluation},
