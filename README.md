@@ -9,6 +9,14 @@ The structure images are inherent smooth and can be safely taken as ground truth
 Moreover, we propose a novel Pixel-level Non-Local Smoothing (PNLS) method, exploiting better the non-local self-similarity of natural images to well preserve the structure of the smoothed images. Extensive experiments on several benchmark datasets demonstrate that our PNLS is very effective on the image smoothing task.
 Comprehensive ablation studies also reveal the work mechanism of our PNLS on image smoothing.To further show its effectiveness, we apply the proposed PNLS on semantic region smoothing, detail/edge enhancement, and image abstraction. The benchmark and code will be publicly released. 
 
+## Contents
+- [Resources](https://github.com/zal0302/PNLS#resources)
+- [System requirements](https://github.com/zal0302/PNLS#system-requirements)
+- [NKS dataset](https://github.com/zal0302/PNLS#nks-dataset)
+- [Benchmarking Image Smoothing on our NKS dataset](https://github.com/zal0302/PNLS#benchmarking-image-smoothing-on-our-nks-dataset)
+- [Visual Results](https://github.com/zal0302/PNLS#visual-results)
+- [Citation](https://github.com/zal0302/PNLS#citation)
+
 ## Resources
 Material related to our paper is available via the following links:
 - Code: https://github.com/zal0302/PNLS
