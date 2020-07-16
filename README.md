@@ -44,7 +44,7 @@ Comparison of smoothed images and PSNR(dB)/SSIM/FSIM results by different method
 <div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/div.png" width="1000"  /></div>
 Comparison of smoothed images by different methods on the image 0117 from DIV2K dataset.
 <div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/RTV.jpg" width="1000"  /></div>
-Comparison of smoothed images by different methods on the image 03_11 from RTV dataset.
+Comparison of smoothed images by different methods on the image 11_11 from RTV dataset.
 <div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/500.png" width="1000"  /></div>
 Comparison of smoothed images by different methods on the image 0334 from 500images dataset.
 
