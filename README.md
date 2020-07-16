@@ -36,14 +36,14 @@ The 20 structure images we used in NKS dataset.
 The 10 natural texture images we used in NKS dataset.
 
 ## Benchmarking Image Smoothing on our NKS dataset
-<div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/benchmark.png" width="650"  /></div>
+<div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/benchmark.jpg" width="650"  /></div>
 
 ## Visual Results
 <div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/nks.png" width="1000"  /></div>
 Comparison of smoothed images and PSNR(dB)/SSIM/FSIM results by different methods on the image S15T1 from our NKS dataset.
 <div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/div.png" width="1000"  /></div>
 Comparison of smoothed images by different methods on the image 0117 from DIV2K dataset.
-<div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/rtv.png" width="1000"  /></div>
+<div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/RTV.jpg" width="1000"  /></div>
 Comparison of smoothed images by different methods on the image 03_11 from RTV dataset.
 <div align=center><img src="https://github.com/zal0302/PNLS/blob/master/figs/500.png" width="1000"  /></div>
 Comparison of smoothed images by different methods on the image 0334 from 500images dataset.
