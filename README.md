@@ -1,6 +1,6 @@
 # PNLS — Matlab Implementation 
 This repository contains the Matlab implementation of the following paper:
-> **Non-local Image Smoothing with Objective Evaluation**
+> **Pixel-level Non-local Image Smoothing with Objective Evaluation**
 >
 > **Abstract:** With the rapid development of image processing techniques, image smoothing has gained increasing attention due to its important role in other image processing tasks, e.g., image editing and enhancement.
 However, the evaluation of image smoothing methods is subjectively performed on datasets without proper ground truth images. Therefore, an image smoothing benchmark with reasonable ground-truths is essential to prosper the image smoothing community.
@@ -53,9 +53,13 @@ Comparison of smoothed images by different methods on the image 0334 from 500ima
 ## Citation
 If you find the code helpful in your resarch or work, please cite the following paper.
 ```
-@Misc{pnls,
-title = {Non-local Image Smoothing with Objective Evaluation},
-author = {Z.-A. Liu and Y.-K. Hou and J. Xu and X.-T. Zhen and  M.-M. Cheng},
-year={2020}
-}
+@ARTICLE{9257021,
+  author={J. {Xu} and Z. -A. {Liu} and Y. {Hou} and X. {Zhen} and L. {Shao} and M. -M. {Cheng}},
+  journal={IEEE Transactions on Multimedia}, 
+  title={Pixel-level Non-local Image Smoothing with Objective Evaluation}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TMM.2020.3037535}}
 ```
